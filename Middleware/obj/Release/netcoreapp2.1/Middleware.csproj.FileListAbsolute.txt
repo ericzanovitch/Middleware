@@ -1,0 +1,10 @@
+c:\apps\Middleware\Middleware\bin\Release\netcoreapp2.1\Middleware.deps.json
+c:\apps\Middleware\Middleware\bin\Release\netcoreapp2.1\Middleware.runtimeconfig.json
+c:\apps\Middleware\Middleware\bin\Release\netcoreapp2.1\Middleware.runtimeconfig.dev.json
+c:\apps\Middleware\Middleware\bin\Release\netcoreapp2.1\Middleware.dll
+c:\apps\Middleware\Middleware\bin\Release\netcoreapp2.1\Middleware.pdb
+c:\apps\Middleware\Middleware\obj\Release\netcoreapp2.1\Middleware.csproj.CoreCompileInputs.cache
+c:\apps\Middleware\Middleware\obj\Release\netcoreapp2.1\Middleware.AssemblyInfoInputs.cache
+c:\apps\Middleware\Middleware\obj\Release\netcoreapp2.1\Middleware.AssemblyInfo.cs
+c:\apps\Middleware\Middleware\obj\Release\netcoreapp2.1\Middleware.dll
+c:\apps\Middleware\Middleware\obj\Release\netcoreapp2.1\Middleware.pdb
