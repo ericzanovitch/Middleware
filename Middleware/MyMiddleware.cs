@@ -4,6 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
+using System.IO;
 
 namespace Middleware
 {
@@ -21,11 +22,31 @@ namespace Middleware
             // Do something here
             //context.Response.ContentType = "application/pdf";
             //await context.Response.Body.WriteAsync
-            context.Response.StatusCode = StatusCodes.Status200OK;
-            await context.Response.WriteAsync("Hello World");
-            //await _next.Invoke(context);
+            Microsoft.Extensions.Primitives.StringValues paramFileName = new Microsoft.Extensions.Primitives.StringValues();
+            context.Request.Query.TryGetValue("filename", out paramFileName);
+            string FileName = paramFileName.ToString();
+            if (FileName != "")
+            {
+                try
+                {
+                    byte[] FileBytes = File.ReadAllBytes(FileName);
 
-            // Cleanup
+                    context.Response.StatusCode = StatusCodes.Status200OK;
+                    context.Response.ContentType = "application/pdf";
+                    await context.Response.Body.WriteAsync(FileBytes, 0, FileBytes.Length);
+                }
+                catch(Exception ex)
+                {
+                    context.Response.StatusCode = StatusCodes.Status500InternalServerError;
+                    await context.Response.WriteAsync(ex.Message);
+                }
+            }
+            else
+            {
+                context.Response.StatusCode = StatusCodes.Status500InternalServerError;
+                await context.Response.WriteAsync("URL requires a filename parameter.");
+            }
+
         }
     }
 }
