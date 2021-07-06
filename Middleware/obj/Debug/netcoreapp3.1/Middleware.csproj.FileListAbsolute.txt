@@ -1,0 +1,13 @@
+D:\Stuff\Middleware\Middleware\bin\Debug\netcoreapp3.1\Middleware.exe
+D:\Stuff\Middleware\Middleware\bin\Debug\netcoreapp3.1\Middleware.deps.json
+D:\Stuff\Middleware\Middleware\bin\Debug\netcoreapp3.1\Middleware.runtimeconfig.json
+D:\Stuff\Middleware\Middleware\bin\Debug\netcoreapp3.1\Middleware.runtimeconfig.dev.json
+D:\Stuff\Middleware\Middleware\bin\Debug\netcoreapp3.1\Middleware.dll
+D:\Stuff\Middleware\Middleware\bin\Debug\netcoreapp3.1\Middleware.pdb
+D:\Stuff\Middleware\Middleware\obj\Debug\netcoreapp3.1\Middleware.csprojAssemblyReference.cache
+D:\Stuff\Middleware\Middleware\obj\Debug\netcoreapp3.1\Middleware.AssemblyInfoInputs.cache
+D:\Stuff\Middleware\Middleware\obj\Debug\netcoreapp3.1\Middleware.AssemblyInfo.cs
+D:\Stuff\Middleware\Middleware\obj\Debug\netcoreapp3.1\Middleware.csproj.CoreCompileInputs.cache
+D:\Stuff\Middleware\Middleware\obj\Debug\netcoreapp3.1\Middleware.dll
+D:\Stuff\Middleware\Middleware\obj\Debug\netcoreapp3.1\Middleware.pdb
+D:\Stuff\Middleware\Middleware\obj\Debug\netcoreapp3.1\Middleware.genruntimeconfig.cache
